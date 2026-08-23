@@ -1,0 +1,24 @@
+name: salati
+description: تطبيق أذكاري و صلاتي
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+  flutter_timezone: ^1.0.7
+  http: ^1.2.2
+  geolocator: ^13.0.2
+  flutter_compass: ^0.8.0
+  flutter_qiblah: ^2.0.0
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.2.3
+  intl: ^0.19.0
+
+flutter:
+  uses-material-design: true
